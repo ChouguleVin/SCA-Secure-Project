@@ -7,7 +7,7 @@ export let options = {
 };
 
 export default function () {
-  let res = http.get('http://your-app-url');
+  let res = http.get('http://18.214.171.163:8080');
   check(res, { 'status was 200': (r) => r.status === 200 });
   sleep(1);
 }
